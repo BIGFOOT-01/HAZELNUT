@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    font-size: 62.5%;
+    --brown-color: #D9D9D9;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #5C2513;
+}
+
+nav{
+    width: 90%;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoo{
+    width: 80px;
+}
+
+.links{
+    display: flex;
+    gap: 5px;
+}
+
+.links a{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "Outfit", sans-serif;
+    line-height: 40px;
+    padding: 0 15px;
+    color: var(--brown-color);
+    cursor: pointer;
+    transition: ease-in-out 500ms;
+}
+
+.links a:hover{
+    background-color: var(--brown-color);
+    border-radius: 20px;
+    color: #5C2513;
+    transition: ease-in-out 500ms;
+}
+
+main{
+    width: 97%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.intro{
+    width: 45%;
+    padding: 0 0 0 50px;
+}
+
+.intro h1{
+    font-size: 7.0rem;
+    font-weight: 600;
+    font-family: "Outfit", sans-serif;
+    color: var(--brown-color);
+    margin-bottom: 10px;
+}
+
+.intro p{
+    width: 600px;
+    font-size: 2.0rem;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    color: var(--brown-color);
+    margin-bottom: 10px;
+}
+
+.btn{
+    width: 300px;
+    display: flex;
+    gap: 20px;
+}
+
+.order{
+    width: 150px;
+    padding: 10px 0;
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    color: #5C2513;
+    background-color: var(--brown-color);
+    border-radius: 20px;
+    transition: step-start 500ms;
+}
+
+.order:hover{
+    background-color: var(--brown-color);
+    transition: ease-in-out 500ms;
+}
+
+.view{
+    width: 150px;
+    padding: 10px 0;
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    border: 1px solid var(--brown-color);
+    color: var(--brown-color);
+    border-radius: 20px;
+    transition:  500ms;
+}
+
+.view:hover{
+    color: #5C2513;
+    background-color: var(--brown-color);
+    border: 1px solid transparent;
+    border-radius: 20px;
+    transition: ease-in-out 500ms;
+}
+
+.photo{
+    margin-left: auto;
+}
